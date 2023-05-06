@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.calc{
+  width: 100%;
+  height: 100%;
+}
+#txt{
+  margin: 10px 0 10px 0px;
+  width: 100%;
+  height: 40px;
+  padding: 20px;
+  border: none;
+  font-size: 24px;
+  outline: none;
+}
+.buttons{
+  width: 100%;
+  height: 100%;
+}
+.set1 , .set2, .set3, .set4,.set5{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
